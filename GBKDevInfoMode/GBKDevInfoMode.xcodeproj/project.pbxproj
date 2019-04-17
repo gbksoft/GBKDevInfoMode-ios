@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D265E272251DE9B0021B6CB /* GBKListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D265E242251DE9B0021B6CB /* GBKListViewController.xib */; };
+		4D265E282251DE9B0021B6CB /* GBKSectionInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D265E252251DE9B0021B6CB /* GBKSectionInfoTableViewCell.xib */; };
+		4D265E292251DE9B0021B6CB /* GBKValueInfoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4D265E262251DE9B0021B6CB /* GBKValueInfoTableViewCell.xib */; };
+		4D265E2B2251DEA60021B6CB /* GBKDevInfoMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E2A2251DEA60021B6CB /* GBKDevInfoMode.swift */; };
+		4D265E312251DEB80021B6CB /* GBKUserDefaultsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E2C2251DEB70021B6CB /* GBKUserDefaultsService.swift */; };
+		4D265E322251DEB80021B6CB /* GBKGoogleListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E2D2251DEB70021B6CB /* GBKGoogleListService.swift */; };
+		4D265E332251DEB80021B6CB /* GBKDevListService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E2E2251DEB70021B6CB /* GBKDevListService.swift */; };
+		4D265E342251DEB80021B6CB /* GBKKeyAPIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E2F2251DEB70021B6CB /* GBKKeyAPIService.swift */; };
+		4D265E352251DEB80021B6CB /* GBKAppInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E302251DEB70021B6CB /* GBKAppInfoService.swift */; };
+		4D265E372251DEC00021B6CB /* GBKPlistParseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E362251DEC00021B6CB /* GBKPlistParseService.swift */; };
+		4D265E3C2251DECA0021B6CB /* GBKValueUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E382251DECA0021B6CB /* GBKValueUIModel.swift */; };
+		4D265E3D2251DECA0021B6CB /* GBKDIMDevValueModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E392251DECA0021B6CB /* GBKDIMDevValueModel.swift */; };
+		4D265E3E2251DECA0021B6CB /* GBKSectionUIModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E3A2251DECA0021B6CB /* GBKSectionUIModel.swift */; };
+		4D265E3F2251DECA0021B6CB /* GBKDIMDevSectionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E3B2251DECA0021B6CB /* GBKDIMDevSectionModel.swift */; };
+		4D265E452251DED20021B6CB /* GBKSectionInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E402251DED20021B6CB /* GBKSectionInfoTableViewCell.swift */; };
+		4D265E462251DED20021B6CB /* GBKListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E412251DED20021B6CB /* GBKListRouter.swift */; };
+		4D265E472251DED20021B6CB /* GBKListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E422251DED20021B6CB /* GBKListViewController.swift */; };
+		4D265E482251DED20021B6CB /* GBKAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E432251DED20021B6CB /* GBKAlertController.swift */; };
+		4D265E492251DED20021B6CB /* GBKValueInfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D265E442251DED20021B6CB /* GBKValueInfoTableViewCell.swift */; };
+		7E5B650C204D2B2A007BAC5A /* Extension+UIWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5B650B204D2B2A007BAC5A /* Extension+UIWindow.swift */; };
+		7EAA3643204D19260048F0EC /* GBKDevInfoMode.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EAA3641204D19260048F0EC /* GBKDevInfoMode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4D265E242251DE9B0021B6CB /* GBKListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBKListViewController.xib; sourceTree = "<group>"; };
+		4D265E252251DE9B0021B6CB /* GBKSectionInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBKSectionInfoTableViewCell.xib; sourceTree = "<group>"; };
+		4D265E262251DE9B0021B6CB /* GBKValueInfoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GBKValueInfoTableViewCell.xib; sourceTree = "<group>"; };
+		4D265E2A2251DEA60021B6CB /* GBKDevInfoMode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKDevInfoMode.swift; sourceTree = "<group>"; };
+		4D265E2C2251DEB70021B6CB /* GBKUserDefaultsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKUserDefaultsService.swift; sourceTree = "<group>"; };
+		4D265E2D2251DEB70021B6CB /* GBKGoogleListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKGoogleListService.swift; sourceTree = "<group>"; };
+		4D265E2E2251DEB70021B6CB /* GBKDevListService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKDevListService.swift; sourceTree = "<group>"; };
+		4D265E2F2251DEB70021B6CB /* GBKKeyAPIService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKKeyAPIService.swift; sourceTree = "<group>"; };
+		4D265E302251DEB70021B6CB /* GBKAppInfoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKAppInfoService.swift; sourceTree = "<group>"; };
+		4D265E362251DEC00021B6CB /* GBKPlistParseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKPlistParseService.swift; sourceTree = "<group>"; };
+		4D265E382251DECA0021B6CB /* GBKValueUIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKValueUIModel.swift; sourceTree = "<group>"; };
+		4D265E392251DECA0021B6CB /* GBKDIMDevValueModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKDIMDevValueModel.swift; sourceTree = "<group>"; };
+		4D265E3A2251DECA0021B6CB /* GBKSectionUIModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKSectionUIModel.swift; sourceTree = "<group>"; };
+		4D265E3B2251DECA0021B6CB /* GBKDIMDevSectionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKDIMDevSectionModel.swift; sourceTree = "<group>"; };
+		4D265E402251DED20021B6CB /* GBKSectionInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKSectionInfoTableViewCell.swift; sourceTree = "<group>"; };
+		4D265E412251DED20021B6CB /* GBKListRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKListRouter.swift; sourceTree = "<group>"; };
+		4D265E422251DED20021B6CB /* GBKListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKListViewController.swift; sourceTree = "<group>"; };
+		4D265E432251DED20021B6CB /* GBKAlertController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKAlertController.swift; sourceTree = "<group>"; };
+		4D265E442251DED20021B6CB /* GBKValueInfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GBKValueInfoTableViewCell.swift; sourceTree = "<group>"; };
+		7E5B650B204D2B2A007BAC5A /* Extension+UIWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIWindow.swift"; sourceTree = "<group>"; };
+		7EAA363E204D19260048F0EC /* GBKDevInfoMode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GBKDevInfoMode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EAA3641204D19260048F0EC /* GBKDevInfoMode.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GBKDevInfoMode.h; sourceTree = "<group>"; };
+		7EAA3642204D19260048F0EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7EAA363A204D19260048F0EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E5B6513204D3196007BAC5A /* Parse Service */ = {
+			isa = PBXGroup;
+			children = (
+				4D265E362251DEC00021B6CB /* GBKPlistParseService.swift */,
+			);
+			path = "Parse Service";
+			sourceTree = "<group>";
+		};
+		7EAA3634204D19260048F0EC = {
+			isa = PBXGroup;
+			children = (
+				7EAA3640204D19260048F0EC /* GBKDevInfoMode */,
+				7EAA363F204D19260048F0EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EAA363F204D19260048F0EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EAA363E204D19260048F0EC /* GBKDevInfoMode.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EAA3640204D19260048F0EC /* GBKDevInfoMode */ = {
+			isa = PBXGroup;
+			children = (
+				7EAA3641204D19260048F0EC /* GBKDevInfoMode.h */,
+				7EAA3666204D1BF00048F0EC /* Resource */,
+				7EAA3667204D1BF00048F0EC /* Source */,
+				7EAA3642204D19260048F0EC /* Info.plist */,
+			);
+			path = GBKDevInfoMode;
+			sourceTree = "<group>";
+		};
+		7EAA3666204D1BF00048F0EC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				4D265E242251DE9B0021B6CB /* GBKListViewController.xib */,
+				4D265E252251DE9B0021B6CB /* GBKSectionInfoTableViewCell.xib */,
+				4D265E262251DE9B0021B6CB /* GBKValueInfoTableViewCell.xib */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		7EAA3667204D1BF00048F0EC /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				7EAA369D204D23B40048F0EC /* Logic */,
+				7EAA367C204D21340048F0EC /* Service */,
+				7E5B6513204D3196007BAC5A /* Parse Service */,
+				7EAA3677204D1E5E0048F0EC /* Model */,
+				7EAA366E204D1C360048F0EC /* UI */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		7EAA366E204D1C360048F0EC /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				4D265E412251DED20021B6CB /* GBKListRouter.swift */,
+				4D265E432251DED20021B6CB /* GBKAlertController.swift */,
+				4D265E422251DED20021B6CB /* GBKListViewController.swift */,
+				4D265E402251DED20021B6CB /* GBKSectionInfoTableViewCell.swift */,
+				4D265E442251DED20021B6CB /* GBKValueInfoTableViewCell.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		7EAA3677204D1E5E0048F0EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4D265E3B2251DECA0021B6CB /* GBKDIMDevSectionModel.swift */,
+				4D265E392251DECA0021B6CB /* GBKDIMDevValueModel.swift */,
+				4D265E3A2251DECA0021B6CB /* GBKSectionUIModel.swift */,
+				4D265E382251DECA0021B6CB /* GBKValueUIModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		7EAA367C204D21340048F0EC /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				4D265E302251DEB70021B6CB /* GBKAppInfoService.swift */,
+				4D265E2E2251DEB70021B6CB /* GBKDevListService.swift */,
+				4D265E2D2251DEB70021B6CB /* GBKGoogleListService.swift */,
+				4D265E2F2251DEB70021B6CB /* GBKKeyAPIService.swift */,
+				4D265E2C2251DEB70021B6CB /* GBKUserDefaultsService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		7EAA369D204D23B40048F0EC /* Logic */ = {
+			isa = PBXGroup;
+			children = (
+				4D265E2A2251DEA60021B6CB /* GBKDevInfoMode.swift */,
+				7E5B650B204D2B2A007BAC5A /* Extension+UIWindow.swift */,
+			);
+			path = Logic;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7EAA363B204D19260048F0EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EAA3643204D19260048F0EC /* GBKDevInfoMode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7EAA363D204D19260048F0EC /* GBKDevInfoMode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EAA3646204D19260048F0EC /* Build configuration list for PBXNativeTarget "GBKDevInfoMode" */;
+			buildPhases = (
+				7EAA3639204D19260048F0EC /* Sources */,
+				7EAA363A204D19260048F0EC /* Frameworks */,
+				7EAA363B204D19260048F0EC /* Headers */,
+				7EAA363C204D19260048F0EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GBKDevInfoMode;
+			productName = DevInfoMode;
+			productReference = 7EAA363E204D19260048F0EC /* GBKDevInfoMode.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EAA3635204D19260048F0EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = gbksoft;
+				TargetAttributes = {
+					7EAA363D204D19260048F0EC = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7EAA3638204D19260048F0EC /* Build configuration list for PBXProject "GBKDevInfoMode" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7EAA3634204D19260048F0EC;
+			productRefGroup = 7EAA363F204D19260048F0EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EAA363D204D19260048F0EC /* GBKDevInfoMode */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7EAA363C204D19260048F0EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D265E292251DE9B0021B6CB /* GBKValueInfoTableViewCell.xib in Resources */,
+				4D265E282251DE9B0021B6CB /* GBKSectionInfoTableViewCell.xib in Resources */,
+				4D265E272251DE9B0021B6CB /* GBKListViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7EAA3639204D19260048F0EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D265E312251DEB80021B6CB /* GBKUserDefaultsService.swift in Sources */,
+				4D265E2B2251DEA60021B6CB /* GBKDevInfoMode.swift in Sources */,
+				4D265E452251DED20021B6CB /* GBKSectionInfoTableViewCell.swift in Sources */,
+				4D265E482251DED20021B6CB /* GBKAlertController.swift in Sources */,
+				7E5B650C204D2B2A007BAC5A /* Extension+UIWindow.swift in Sources */,
+				4D265E3C2251DECA0021B6CB /* GBKValueUIModel.swift in Sources */,
+				4D265E472251DED20021B6CB /* GBKListViewController.swift in Sources */,
+				4D265E342251DEB80021B6CB /* GBKKeyAPIService.swift in Sources */,
+				4D265E3F2251DECA0021B6CB /* GBKDIMDevSectionModel.swift in Sources */,
+				4D265E352251DEB80021B6CB /* GBKAppInfoService.swift in Sources */,
+				4D265E3E2251DECA0021B6CB /* GBKSectionUIModel.swift in Sources */,
+				4D265E3D2251DECA0021B6CB /* GBKDIMDevValueModel.swift in Sources */,
+				4D265E372251DEC00021B6CB /* GBKPlistParseService.swift in Sources */,
+				4D265E462251DED20021B6CB /* GBKListRouter.swift in Sources */,
+				4D265E322251DEB80021B6CB /* GBKGoogleListService.swift in Sources */,
+				4D265E492251DED20021B6CB /* GBKValueInfoTableViewCell.swift in Sources */,
+				4D265E332251DEB80021B6CB /* GBKDevListService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7EAA3644204D19260048F0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EAA3645204D19260048F0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7EAA3647204D19260048F0EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/GBKDevInfoMode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbksoft.GBKDevInfoMode;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7EAA3648204D19260048F0EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "$(SRCROOT)/GBKDevInfoMode/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gbksoft.GBKDevInfoMode;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7EAA3638204D19260048F0EC /* Build configuration list for PBXProject "GBKDevInfoMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EAA3644204D19260048F0EC /* Debug */,
+				7EAA3645204D19260048F0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EAA3646204D19260048F0EC /* Build configuration list for PBXNativeTarget "GBKDevInfoMode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EAA3647204D19260048F0EC /* Debug */,
+				7EAA3648204D19260048F0EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7EAA3635204D19260048F0EC /* Project object */;
+}

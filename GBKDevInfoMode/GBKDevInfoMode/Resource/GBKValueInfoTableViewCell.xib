@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="GBKValueInfoTableViewCell" id="eTo-57-LIu" customClass="GBKValueInfoTableViewCell" customModule="DevInfoMode_Test" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eTo-57-LIu" id="1UJ-29-geF">
+                <rect key="frame" x="0.0" y="0.0" width="375" height="43.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Etn-8M-6cu">
+                        <rect key="frame" x="20" y="2" width="335" height="39.5"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="751" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3dy-ET-mYw">
+                                <rect key="frame" x="10" y="5" width="35.5" height="29.5"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" red="0.34901960784313724" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7W0-K8-hw4">
+                                <rect key="frame" x="60.5" y="5" width="264.5" height="29.5"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <color key="textColor" red="0.34901960784313724" green="0.34901960784313724" blue="0.34901960784313724" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3dy-ET-mYw" firstAttribute="top" secondItem="Etn-8M-6cu" secondAttribute="top" constant="5" id="3bn-Up-ezq"/>
+                            <constraint firstAttribute="bottom" secondItem="3dy-ET-mYw" secondAttribute="bottom" constant="5" id="6oB-Tr-A0U"/>
+                            <constraint firstItem="3dy-ET-mYw" firstAttribute="width" relation="lessThanOrEqual" secondItem="Etn-8M-6cu" secondAttribute="width" multiplier="0.4" id="FXS-hq-6Mb"/>
+                            <constraint firstAttribute="trailing" secondItem="7W0-K8-hw4" secondAttribute="trailing" constant="10" id="Ob7-yK-Hwf"/>
+                            <constraint firstItem="7W0-K8-hw4" firstAttribute="leading" secondItem="3dy-ET-mYw" secondAttribute="trailing" constant="15" id="UXX-Md-e1O"/>
+                            <constraint firstItem="7W0-K8-hw4" firstAttribute="top" secondItem="Etn-8M-6cu" secondAttribute="top" constant="5" id="ZPs-bb-V04"/>
+                            <constraint firstAttribute="bottom" secondItem="7W0-K8-hw4" secondAttribute="bottom" constant="5" id="fdl-Vi-9sT"/>
+                            <constraint firstItem="3dy-ET-mYw" firstAttribute="leading" secondItem="Etn-8M-6cu" secondAttribute="leading" constant="10" id="rYU-1O-8z3"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="Etn-8M-6cu" secondAttribute="trailing" constant="20" id="Pgz-Wb-HH6"/>
+                    <constraint firstItem="Etn-8M-6cu" firstAttribute="leading" secondItem="1UJ-29-geF" secondAttribute="leading" constant="20" id="pPE-5y-CuW"/>
+                    <constraint firstAttribute="bottom" secondItem="Etn-8M-6cu" secondAttribute="bottom" constant="2" id="pWd-A2-jzy"/>
+                    <constraint firstItem="Etn-8M-6cu" firstAttribute="top" secondItem="1UJ-29-geF" secondAttribute="top" constant="2" id="qYa-RK-tlz"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="baseView" destination="Etn-8M-6cu" id="Zq2-eA-xOO"/>
+                <outlet property="titleLabel" destination="3dy-ET-mYw" id="mRa-gU-VQr"/>
+                <outlet property="valueLabel" destination="7W0-K8-hw4" id="aNm-So-2E6"/>
+            </connections>
+            <point key="canvasLocation" x="56.5" y="-32"/>
+        </tableViewCell>
+    </objects>
+</document>
