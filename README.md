@@ -218,3 +218,6 @@ extension UIWindow {
     }
 }
 ```
+
+# Let us know
+We'd be very happy if you sent links to your projects where you use our component. Just send us email to [github@gbksoft.com](mailto:github@gbksoft.com)
