@@ -50,7 +50,7 @@ platform :ios, '8.0'
 use_frameworks!
 
 target '<Your Target Name>' do
-    pod 'GBKDevInfoMode', :git => 'git@github.com:gbksoft/GBKDevInfoMode-ios.git'
+    pod 'GBKDevInfoMode'
 end
 ```
 
